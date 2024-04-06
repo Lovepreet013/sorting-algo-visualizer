@@ -1,0 +1,73 @@
+.topBar {
+    overflow: hidden;
+    position: relative;
+    background-color: #a0978d;
+}
+.topBar a {
+    float: left;
+    color: #532929;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.topBar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topBar #active {
+    background-color: #04aa6d;
+}
+body{
+    background: #151019;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#myRange{
+    margin: auto;
+    direction: rtl;
+}
+#sortingAlg{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+.sortingBtn{
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+    font-style: bold;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#sliderContainer{
+    background-color: transparent;
+    position: absolute;
+    margin-left: 36%;
+    margin-top: -30px;
+}
+#visualizerCanvas{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 140px;
+}
+#myCanvas{
+    background: #151019;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+}
+#container{
+    position: relative;
+}
+.topBar a{
+    font-size: 1vw;
+    padding: 0.7vw 1.3vh;
+}

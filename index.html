@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="topbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sorting Algorithm Visualizer</title>
+</head>
+
+<body>
+    <div class="topBar" id="topbar">
+        <a id="bubbleSort" style="margin-left: 25%;">Bubble Sort</a>
+        <a id="selectionSort">Selection Sort</a>
+        <a id="insertionSort">Insertion Sort</a>
+        <a id="quickSort">Quick Sort</a>
+        <a id="cocktailSort">Cocktail Sort</a>
+        <a id="shellSort">Shell Sort</a>
+        <a id="mergeSort">Merge Sort</a>
+    </div>
+
+    <div id="container">
+        <canvas id="visualizerCanvas"></canvas>$
+
+        <div id="sliderContainer">
+            <p style="color:white; font-style: bold; display: inline-block; margin-right: 10px;">Speed</p>
+            <input type="range" min="1" max="100" id="myRange" value="50">
+
+            <p style="color:white; font-style: bold; display: inline-block; margin-right: 10px;">Number of elements</p>
+            <input type="range" min="20" max="900" id="elRange" value="100">
+        </div>
+        
+        <canvas id="myCanvas"></canvas>
+       
+    </div>
+
+    <script src="dots.js"></script>
+    <script src="visualizer.js"></script>
+
+</body>
+
+</html>
