@@ -181,7 +181,6 @@ elSlider.oninput = function () {
 }
 
 //
-//#region  Sortari
 async function bubbleSort() {
     let sch = 1;
     while (sch) {
@@ -333,6 +332,3 @@ async function mergeSort(arr, aux, l, r){
     }
     else return;
 }
-
-//#endregion
-//
